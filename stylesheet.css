@@ -1,1 +1,17 @@
+body {
+    background-color: coral;
+}
 
+.welcome {
+color: white;
+background-color: chocolate;
+font-weight: 900;
+text-align: center;
+font-size: 35px;
+width: 50%x;
+margin: 100px 25%;
+}
+
+hr {
+margin: 0 10%;
+}
