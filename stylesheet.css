@@ -22,7 +22,7 @@ text-shadow: 3px 3px 5px black;
 overflow: auto;
 line-height: 35px;
 letter-spacing: 1px;
-animation: mainsectiontest 1000ms infinite;
+animation: mainsectiontest 1000ms forwards;
 
 }
 
@@ -75,6 +75,7 @@ button {
 button:hover {
     box-shadow: 2px 2px 20px #2A9D8F;
     animation: buttontest 1000ms infinite;
+    animation: buttonscale 1000ms forwards;
 }
 
 @keyframes buttontest {
@@ -87,12 +88,18 @@ button:hover {
     70% {box-shadow: 2px 2px 30px #248a75;}
     80% {box-shadow: 2px 2px 25px #196154;}
     90% {box-shadow: 2px 2px 20px #238573;}
-    100% {box-shadow: 2px 2px 20px #2A9D8F;}
+    100% {box-shadow: 2px 2px 20px #2A9D8F;} 
+}
+
+@keyframes buttonscale {
+    to {scale: 1.1;}
 }
 
 @keyframes mainsectiontest {
     from {box-shadow: 2px 2px 50px #2A9D8F;}
-    to {box-shadow: 2px 2px 50px #2fab9d;}
+    to {box-shadow: 2px 2px 500px #2fab9d;}
+    from {scale: 0.9;}
+    to {scale: 1;}
 }
 
 .html5logo {
