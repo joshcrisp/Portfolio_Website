@@ -29,7 +29,7 @@ animation: mainsectiontest 1000ms forwards;
 .leftline {
 background-color: #E76F51;
 width: 100px;
-padding: 0 0 100% 0;
+padding: 0 0 15% 0;
 border-style: none solid none solid;
 border-width: 20px;
 border-color: #F4A261;
@@ -40,7 +40,7 @@ margin-right: 50px;
 .rightline {
 background-color: #E76F51;
 width: 100px;
-padding: 0 0 100% 0;
+padding: 0 0 15% 0;
 border-style: none solid none solid;
 border-width: 20px;
 border-color: #F4A261;
@@ -59,8 +59,7 @@ main {
 }
 
 button {
-    /*padding: 20px 30px;*/
-    margin: 10px;
+    margin: 20px 10px 10px 20px;
     border: double 20px #E76F51;
     background-color: #F4A261;
     font-size: 0.7rem;
@@ -103,18 +102,18 @@ button:hover {
 }
 
 .html5logo {
-    margin-top: 150px;
+    margin-top: 200px;
     opacity: 0.3;
 }
 
 .cslogo {
     padding: 0 15px;
-    margin-top: 150px;
+    margin-top: 200px;
     opacity: 0.4;
 }
 
 .jslogo {
-margin-top: 150px;
+margin-top: 200px;
 padding: 10px;
 opacity: 0.5;
 }
