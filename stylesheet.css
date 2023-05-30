@@ -11,9 +11,9 @@ background-color: #F4A261;
 font-weight: 700;
 text-align: center;
 font-size: 1rem;
-width: 400px;
-height: 300px;
-margin: 100px auto;
+width: 800px;
+height: 600px;
+margin: 30px auto;
 border: double #E76F51 25px;
 padding: 20px 100px;
 border-radius: 10px;
@@ -69,7 +69,7 @@ button {
     text-shadow: 2px 2px 5px black;
     height: 100px;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 button:hover {
@@ -97,20 +97,20 @@ button:hover {
 
 @keyframes mainsectiontest {
     from {box-shadow: 2px 2px 50px #2A9D8F;}
-    to {box-shadow: 2px 2px 500px #2fab9d;}
-    from {scale: 0.9;}
+    to {box-shadow: 2px 2px 50px #2fab9d;}
+    from {scale: 0.5;}
     to {scale: 1;}
 }
 
 .html5logo {
     margin-top: 150px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .cslogo {
     padding: 0 15px;
     margin-top: 150px;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .jslogo {
@@ -122,4 +122,15 @@ opacity: 0.5;
 .socials img {
     padding: 70px 0 0 0;
     margin: 0 20px;
+    opacity: 0.8;
+}
+
+.socials img:hover {
+    opacity: 1;
+}
+
+.content {
+    font-size: 0.8rem;
+    text-align: center;
+    color:rgb(255, 252, 247);
 }
