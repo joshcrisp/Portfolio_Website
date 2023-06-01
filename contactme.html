@@ -29,19 +29,20 @@
         <form>
             <table class="contactform">
             <tr>
-            <td><label id="name">Name: </label></td>
-            <td><input type="text" id="name" name="name" placeholder=" "><br></td>
+            <td><label id="email">Email: </label></td>
+            <td><input type="email" id="email" name="email" placeholder=" email@email.com"><br></td>
             </tr>
             <tr>
             <td><label id="company">Company: </label></td>
-            <td><input type="text" id="company" name="company" placeholder=" "></td>
+            <td><input type="text" id="company" name="company" placeholder=" ExampleCompany"></td>
             </tr>
             <tr>
                 <td><label id="enquiry"></label></td>
                 <td><input type="hidden" id="enquiry" name="enquiry"></td>
             </tr>
             </table>
-            <textarea placeholder=" Please enter your enquiry here!" id="enquiry" name="enquiry"></textarea>
+            <br>
+            <textarea placeholder=" Please enter your enquiry here! (max length 400 characters)" id="enquiry" name="enquiry" maxlength="400"></textarea><br>
             <input id="submit" type="submit">
         </form>
       </section>
